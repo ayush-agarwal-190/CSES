@@ -1,0 +1,8 @@
+    // Making pair between range of l≤ai+aj≤r.
+
+for(int i=0;i<n-1;i++)
+{   
+    auto itr1=lower_bound(a.begin()+i+1, a.end(),l-ar[i]);
+    auto itr2=lower_bound(a.begin()+i+1, a.end(),r-ar[i]);
+    ans=ans+(itr2-itr1);
+}
