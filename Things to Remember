@@ -11,3 +11,6 @@ for(int i=0;i<n-1;i++)
 priority_queue<int ,vector<int>,greater<int>> pq;
 
 
+if( xor of a | b =x then x<2*maximum(a,b);
+
+
