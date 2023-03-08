@@ -6,3 +6,8 @@ for(int i=0;i<n-1;i++)
     auto itr2=lower_bound(a.begin()+i+1, a.end(),r-ar[i]);
     ans=ans+(itr2-itr1);
 }
+
+// Minimum HEAP
+priority_queue<int ,vector<int>,greater<int>> pq;
+
+
